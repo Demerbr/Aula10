@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    width: 100%;
+}
+
+header #desconto{
+    height: 38px;
+    background-color: #1cd1b0;
+    
+}
+
+#desconto p {
+
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+header #titulo{
+    background-color: #00669f;
+    height: 101px;
+}
+
+#titulo h1{
+    text-align: center;
+    padding: 25px;
+}
+
+main section{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    margin-left: 312px;
+    margin-top: 86px;
+    margin-bottom: 151px;
+    background-color: yellow;
+}
+
+
+
+
+footer{
+    background-color: #00669f;
+    color: white;
+    height: 51px ;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+   text-align: center;
+   padding: 15px ;
+}
